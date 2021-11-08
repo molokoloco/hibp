@@ -147,7 +147,7 @@ const checkEmail = function(email) { // username or email address
 // reCAPTCHA V3  ///////////////////////////////
 // https://www.google.com/recaptcha/admin/site/475400798/
 
-const secretKey ='6LdeClYcAAAAAAVLxY2n5xNdbiT4Rfpv2ysE4YsZ';
+const secretKey ='6LdeClYcA********************v2ysE4YsZ';
 const recaptchaUrl = `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=`;
 
 // Server ///////////////////////////////
