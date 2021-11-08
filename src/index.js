@@ -1,4 +1,5 @@
 "use strict";
+// Simple server to receive email with POST
 
 const http             = require('http');
 const path             = require('path');
