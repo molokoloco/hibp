@@ -1,0 +1,16 @@
+{
+    "presets": [
+        ["@babel/preset-env", {
+            "targets": {
+                "ie": "11",
+                "browsers": ["last 2 versions"]
+            }
+        }]
+    ],
+    "plugins": [
+        "@babel/plugin-syntax-dynamic-import",
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-transform-arrow-functions",
+        "@babel/plugin-transform-spread"
+    ]
+}

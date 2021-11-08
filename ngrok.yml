@@ -1,0 +1,14 @@
+# $HOME/.ngrok2/ngrok.yml
+# ngrok start ihbp
+authtoken: 42nv34Fvm7bMLu1uG2Eos_6k9AQikWT86dZhtZc1i9C
+tunnels:
+  because:
+    addr: 80
+    proto: http
+    hostname: because.eu.ngrok.io
+    region: eu
+  ihbp:
+    addr: 80
+    proto: http
+    hostname: ihavebp.eu.ngrok.io
+    region: eu

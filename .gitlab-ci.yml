@@ -1,0 +1,15 @@
+stages:
+  - build
+publish:
+  tags:
+    - docker
+  stage: build
+  image:
+    name: 342854766398.dkr.ecr.eu-west-3.amazonaws.com/cloud/ci-playbook:latest
+    entrypoint: [""]
+  services:
+    - docker:dind
+  script:
+    - mkdir -p playbook
+    - cp /opt/ci/{ci.yml,policy.json} .
+    - ansible-playbook -i localhost -c local ci.yml
